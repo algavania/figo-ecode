@@ -1,5 +1,5 @@
 <template>
-  <div class="accent h-100">
+  <div class="accent full-height">
     <v-container>
     <v-row>
       <v-col cols="12" class="col-sm-12 col-md-6" align-self="center">
@@ -31,6 +31,7 @@
 <script>
 export default {
   name: "LandingSection",
+  props: ["text"]
 };
 </script>
 

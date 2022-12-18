@@ -49,4 +49,8 @@ export default {
 .col {
   padding: 1.5rem;
 }
+
+.full-height {
+  height: 100vh;
+}
 </style>
