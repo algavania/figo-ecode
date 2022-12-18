@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main class="accent">
+    <v-main>
       <NavBar />
       <router-view />
     </v-main>
@@ -28,5 +28,25 @@ export default {
 
 .v-btn {
   text-transform: none !important;
+}
+
+.title-text {
+  font-size: 2rem;
+}
+
+.normal-text {
+  font-size: 1.2rem;
+}
+
+.v-btn {
+  height: 3.6rem!important;
+}
+
+.border-4 {
+  border-radius: 1rem;
+}
+
+.col {
+  padding: 1.5rem;
 }
 </style>
