@@ -29,6 +29,7 @@ export default {
 
 .title-text {
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .normal-text {

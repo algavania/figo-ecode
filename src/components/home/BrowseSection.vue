@@ -31,7 +31,6 @@
                         :class="active ? 'card-active' : ''"
                         :ripple="false"
                         @click="toggle"
-                        height="300"
                       >
                         <v-img
                           :src="require(`../../assets/${item.image}`)"
