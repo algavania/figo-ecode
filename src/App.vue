@@ -24,9 +24,6 @@ export default {
 <style>
 * {
   font-family: "Poppins", "Roboto", sans-serif;
-}
-
-.v-btn {
   text-transform: none !important;
 }
 
@@ -39,7 +36,7 @@ export default {
 }
 
 .v-btn {
-  height: 3.6rem!important;
+  height: 3.6rem !important;
 }
 
 .border-4 {
@@ -53,4 +50,15 @@ export default {
 .full-height {
   height: 100vh;
 }
+
+.card-active {
+  border-bottom: 5px solid #70a43c !important;
+}
+
+.box-shadow {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)!important;
+  -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)!important;
+  -moz-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)!important;
+}
+
 </style>

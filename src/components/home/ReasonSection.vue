@@ -12,9 +12,9 @@
             :key="content.icon"
           >
             <v-card
-              :class="content.active ? 'card-active' : ''"
+              :class="content.active ? 'card-active box-shadow' : ''"
               :color="content.active ? 'white' : 'accent'"
-              :elevation="content.active ? '3' : '0'"
+              elevation="0"
               class="pa-5"
               height="300"
             >
@@ -68,5 +68,11 @@ export default {
 <style scoped>
 .card-active {
   border-bottom: 5px solid #70a43c !important;
+}
+
+.box-shadow {
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.2)!important;
+  -webkit-box-shadow: 0 3px 15px rgb(0 0 0 / 0.2)!important;
+  -moz-box-shadow: 0 3px 15px rgb(0 0 0 / 0.2)!important;
 }
 </style>
