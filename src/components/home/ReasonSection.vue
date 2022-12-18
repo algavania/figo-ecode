@@ -15,8 +15,7 @@
               :class="content.active ? 'card-active box-shadow' : ''"
               :color="content.active ? 'white' : 'accent'"
               elevation="0"
-              class="pa-5"
-              height="300"
+              class="pa-5 py-16"
             >
               <v-layout row wrap align-center fill-height>
                 <v-flex>

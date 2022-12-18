@@ -62,4 +62,11 @@ export default {
   -moz-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)!important;
 }
 
+.v-ripple__container {
+    display:none !important;
+}
+
+.v-btn:before {
+  background-color: transparent;
+}
 </style>

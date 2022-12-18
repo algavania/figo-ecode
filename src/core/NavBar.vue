@@ -74,10 +74,6 @@ export default {
   height: 42px;
 }
 
-.v-btn:before {
-  background-color: transparent;
-}
-
 .v-btn {
   text-transform: unset !important;
   font-size: 0.85rem !important;
