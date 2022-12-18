@@ -6,6 +6,7 @@
     <BrowseSection />
     <HistorySection :text="text" :text2="text3" />
     <NewsSection />
+    <SubscriptionSection />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import ReasonSection from "../components/home/ReasonSection.vue";
 import BrowseSection from "../components/home/BrowseSection.vue";
 import HistorySection from "../components/home/HistorySection.vue";
 import NewsSection from "../components/home/NewsSection.vue";
+import SubscriptionSection from "../components/home/SubscriptionSection.vue";
 
 export default {
   name: "HomeView",
@@ -26,6 +28,7 @@ export default {
     BrowseSection,
     HistorySection,
     NewsSection,
+    SubscriptionSection,
   },
   data: () => ({
     text: 'Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vector for one-to-one leadership',

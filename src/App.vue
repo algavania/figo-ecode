@@ -57,9 +57,7 @@ export default {
 }
 
 .box-shadow {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)!important;
-  -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)!important;
-  -moz-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)!important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
 }
 
 .v-ripple__container {
@@ -68,5 +66,9 @@ export default {
 
 .v-btn:before {
   background-color: transparent;
+}
+
+.theme--light.v-text-field--solo > .v-input__control > .v-input__slot {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
 }
 </style>
