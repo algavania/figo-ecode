@@ -24,13 +24,12 @@
                     cols="12"
                     md="4"
                   >
-                    <v-item v-slot="{ active, toggle }">
+                    <v-item v-slot="{ }">
                       <v-card
                         dark
                         class="black--text card-color pa-5 box-shadow"
-                        :class="active ? 'card-active' : ''"
                         :ripple="false"
-                        @click="toggle"
+                        :class="item.name == 'Grilled Chicken BBQ' ? 'card-active' : ''"
                       >
                         <v-img
                           :src="require(`../../assets/${item.image}`)"
