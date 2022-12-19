@@ -81,4 +81,8 @@ export default {
   width: 42px;
   border-radius: 4px;
 }
+
+.btn-social:hover {
+  cursor: pointer
+}
 </style>
